@@ -1,0 +1,166 @@
+header {
+  width: 68%;
+  height: 400px;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  display: flex;
+  align-items: flex-end;
+  margin: 0 auto;
+  background-size: 100%;
+}
+
+.focim {
+  margin-left: 285px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 75px;
+  color: #222;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  color: #222;
+  margin-bottom: 0px;
+}
+
+main {
+  width: 42%;
+  margin: 0px auto;
+}
+
+.body {
+  width: 88%;
+  margin: 60px auto 50px auto;
+}
+
+.text1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+blockquote {
+  width: 90%;
+  margin: auto;
+  padding: 50px 35px 50px 35px;
+  background-color: #444;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 48px;
+  color: white;
+/*   text-indent: -15px;; */
+  line-height: 1.5;
+  position: relative;
+}
+
+blockquote::before {
+  content: "”";
+  font-size: 100px;
+  display: inline-block;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 0px;
+  top: -54px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+/*   width: 0.42* */
+  border-top: 4px solid black;
+}
+
+#leftCircle {
+  font-size: 40px;
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  text-align: right;
+    
+  position: fixed;
+  bottom: 50%;
+  left: -80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#leftCircle:hover {
+  background-color: grey;
+  left: -60px;
+}
+
+#leftX::before {
+  content: "<";
+  padding-right: 17px;
+  
+}
+
+#madeInInvision {
+  font-size: 12px;
+  color: #222;
+  height: 30px;
+  width: 150px;
+  box-shadow: 0px 0px 3px 0px lightgrey;
+  border-radius: 15px;
+  text-align: center;
+    
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+#bottomLeftLogo {
+  width: 20px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+#noDecoration {
+  text-decoration: none;
+}
